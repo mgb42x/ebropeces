@@ -1,0 +1,341 @@
+:root {
+  --primary: #356ae6;
+  --primary-dark: #274381;
+  --accent: #46bfa7;
+  --background: #f7fafd;
+  --text: #222c36;
+  --muted: #6c7a89;
+  --border: #e4eaf1;
+  --white: #fff;
+  --hover-bg: #e9f4fc;
+  --btn-hover: #204076;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: var(--text);
+  background: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.2rem;
+  background: var(--white);
+  border-bottom: 1.5px solid var(--border);
+  box-shadow: 0 2px 8px 0 rgba(53,106,230,0.025);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--primary-dark);
+  letter-spacing: 1px;
+  transition: color 0.17s;
+}
+
+.logo-link:hover .logo, .logo-link:focus .logo {
+  color: var(--accent);
+}
+
+.header-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.35em 0.75em;
+  border-radius: 6px;
+  transition: background 0.18s, color 0.18s, box-shadow 0.22s;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background: var(--hover-bg);
+  color: var(--accent);
+  box-shadow: 0 2px 12px 0 rgba(70,191,167,0.09);
+  outline: none;
+}
+
+.nav-link.active {
+  background: var(--primary-dark);
+  color: var(--white);
+}
+
+.hero {
+  width: 100%;
+  background: linear-gradient(120deg, var(--primary) 0%, var(--accent) 100%);
+  color: var(--white);
+  min-height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero button {
+  background: var(--white);
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  padding: 0.85em 2em;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 rgba(53,106,230,0.08);
+  transition: background 0.18s, color 0.18s;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background: var(--btn-hover);
+  color: var(--white);
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem 1.2rem;
+  box-sizing: border-box;
+}
+
+.info-ebro {
+  margin-bottom: 2.5rem;
+  background: var(--white);
+  border-radius: 14px;
+  box-shadow: 0 1px 8px 0 rgba(53,106,230,0.04);
+  padding: 1.7rem 1.4rem 1.2rem 1.6rem;
+  border-left: 4px solid var(--accent);
+}
+
+.info-ebro h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+
+.especies {
+  background: var(--white);
+  border-radius: 14px;
+  box-shadow: 0 1px 8px 0 rgba(53,106,230,0.04);
+  padding: 1.7rem 1.4rem 1.2rem 1.6rem;
+  border-left: 4px solid var(--primary);
+}
+
+.especies h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+
+.especies-group {
+  margin-bottom: 2.5rem;
+}
+
+.especies-group h3 {
+  font-size: 1.15rem;
+  color: var(--primary);
+  margin-bottom: 1.1rem;
+}
+
+.peces-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem 1.2rem;
+}
+
+.pez-card {
+  display: flex;
+  background: var(--background);
+  border-radius: 10px;
+  box-shadow: 0 1px 6px 0 rgba(53,106,230,0.04);
+  padding: 1.1rem 1rem;
+  align-items: flex-start;
+  gap: 1.1rem;
+  min-height: 150px;
+  transition: box-shadow 0.17s, border 0.17s;
+  border: 1.5px solid transparent;
+}
+
+.pez-card:hover {
+  box-shadow: 0 4px 20px 0 rgba(53,106,230,0.09);
+  border: 1.5px solid var(--primary);
+}
+
+.pez-img {
+  min-width: 78px;
+  max-width: 96px;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e7edf5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pez-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pez-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pez-info h4 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.1rem;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.cientifico {
+  font-weight: 400;
+  font-size: 0.97em;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.pez-info p {
+  font-size: 0.99rem;
+  margin: 0 0 0.7em 0;
+  color: var(--text);
+}
+
+.leer-mas-btn {
+  align-self: flex-start;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 0.97rem;
+  font-weight: 600;
+  padding: 0.35em 1.1em;
+  border: none;
+  border-radius: 22px;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, box-shadow 0.16s;
+  margin-top: 0.35em;
+  box-shadow: 0 1px 8px 0 rgba(53,106,230,0.06);
+  cursor: pointer;
+}
+
+.leer-mas-btn:hover,
+.leer-mas-btn:focus {
+  background: var(--accent);
+  color: var(--primary-dark);
+  outline: none;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.98em;
+  margin-left: 0.4em;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 1rem;
+  padding: 1.3rem 0 1.1rem 0;
+  border-top: 1.5px solid var(--border);
+  background: var(--white);
+  margin-top: 2.5rem;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 950px) {
+  .peces-lista {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem;
+  }
+  .logo {
+    font-size: 1.25rem;
+  }
+  .header-right {
+    gap: 1rem;
+  }
+  main {
+    max-width: 100vw;
+    padding: 1.2rem 0.5rem;
+  }
+  .info-ebro, .especies {
+    padding: 1.1rem 0.5rem 0.8rem 0.7rem;
+  }
+  .peces-lista {
+    grid-template-columns: 1fr;
+  }
+  .pez-img {
+    min-width: 64px;
+    max-width: 84px;
+    width: 70px;
+    height: 70px;
+  }
+}
