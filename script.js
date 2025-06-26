@@ -1,9 +1,7 @@
-// Navegación suave desde el botón principal
 document.getElementById('verEspeciesBtn').addEventListener('click', function () {
   document.getElementById('especies').scrollIntoView({ behavior: 'smooth' });
 });
 
-// Realza el enlace del menú cuando se navega por las secciones
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = [
   { id: 'info-ebro', link: navLinks[0] },
