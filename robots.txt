@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Sitemap: https://mgb42x.github.io/ebropeces/sitemap.xml
+Disallow:
+
+Sitemap: https://ebropeces.netlify.app/sitemap.xml
