@@ -1,91 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ebropeces.netlify.app/</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/alburno.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/amur-blanco.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/barbo-comun.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/barbo-montana.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/bermejuela.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/black-bass.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/carpa-comun.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/carpin.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/colmilleja.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/esturion-danubio.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/fraile-cacho.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/gobio-europeo.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/gobio.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/locha-rio.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/lucio.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/lucio-perca.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/pejerrey.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/perca-fluviatilis.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/siluro.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/tenca.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ebropeces.netlify.app/peces/trucha-comun.html</loc>
-    <lastmod>2025-06-25</lastmod>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ebropeces.netlify.app/</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/barbo-comun</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/barbo-montana</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/gobio</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/colmilleja</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/locha-rio</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/bermejuela</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/fraile-cacho</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/tenca</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/trucha-comun</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/lucio</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/black-bass</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/perca-fluviatilis</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/siluro</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/carpa-comun</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/carpin</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/alburno</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/pejerrey</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/lucio-perca</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/gobio-europeo</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/amur-blanco</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebropeces.netlify.app/peces/esturion-danubio</loc>
+  <lastmod>2025-06-29T11:42:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
